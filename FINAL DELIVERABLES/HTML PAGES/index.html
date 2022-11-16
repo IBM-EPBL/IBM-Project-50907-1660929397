@@ -1,0 +1,177 @@
+<html>
+<head>
+</head>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {text-align: center;}
+h3 {text-align: center;}
+h4 {text-align: center;
+font-size: 30px;}
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+ .header {
+  padding: 50px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+text-decoration: underline;
+ text-decoration-color: #F5E216;
+}
+.container {
+        display: flex;
+        align-items: right;
+}
+
+
+.box {
+  background-color: white;
+  width: 600px;
+  height: 350px;
+  border: 2px solid gray;
+  padding: 40px;
+  margin: 10px;
+}
+
+.img {
+  background-color: white;
+  width: 600px;
+  height: 350px;
+  border: 2px solid gray;
+  padding: 40px;
+  margin: 10px;
+}
+.center{
+    display: flex;
+    justify-content:center;
+    align-itemms:center;
+   
+}
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 32.33%;
+  padding: 2px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+
+
+<body>
+<!-- Top navigation -->
+<div class="topnav">
+ 
+  
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="#home">Home</a>
+    <a href="file:///C:/Users/user/Downloads/HTML%20Pages/login.html">Login</a>
+    <a href="file:///C:/Users/user/Downloads/HTML%20Pages/register.html">Register</a>
+ 
+    <a href="file:///C:/Users/user/Downloads/HTML%20Pages/logout.html">Logout</a>
+    
+  </div>
+  
+  <div class="top-left">
+  <h1 style="color:white;font-size:25px;">Skin Disease Detection</h1>
+  </div>
+  
+</div>
+
+<div>
+<img src="C:\Users\user\Downloads\HTML Pages\ibmpic.png" width="1500" height="600">
+</div>
+
+<div class="header">s
+  <h1>About Project </h1>
+</div>
+
+<div class="container">
+
+<div class="box"><h2> Problem </h2>Now days people are suffering from skin diseases. More than 125 million people suffering from psoriasis also skin cancer rate is rapidly increasing over the last  few decades especially Melanoma is most diversifying skin cancer. If skin diseases are not treated at an earlier stage, then it may lead to complications on the body including spreading of the infection from one individual to the other. The skin diseases can be prevented by investigating the infected region at an early stage. The characteristic of the skin images is diversified so that it is a challenging job to devise an efficient and robust algorithm for automatic detection of skin disease and its severity. Skin tone and skin colour play an important role in skin disease detection. Colour and coarseness of skin are visually different. Automatic processing of such images for skin analysis requires quantitative discriminator to differentiate the diseases.</div>
+
+<div class="img"> <h3> Solution</h3>To overcome this problem we are building a model which is used for the prevention and early detection of skin cancer, psoriasis. Building , skin disease diagnosis depends on the different characteristics like colour, shape, texture etc. Here the person can capture the images of skin and them the images will be sent the trained model. The model analyses the image and detect whether the person is having skin disease or not.</div>
+
+</div>
+<div class="header"text-decoration=" underline";
+ text-decoration-color= "#F5E216";font-size= "20px">
+  <h4>We classify </h4>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="https://i.ytimg.com/vi/DLdwuPOVKfw/maxresdefault.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMMox-5x9mZrPZwjmrTjkV0wXDbG4EMlUJ5d1BQaL01VPDuBoNkD6KMow0c5_mq7gvSYM&usqp=CAU" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBB7ccQxRmZjsmKsdgQAYX70DcBKBREG-LUlEoMM4FihFGoR1lvy9mSDO5eeLkHjaj1A&usqp=CAU" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
